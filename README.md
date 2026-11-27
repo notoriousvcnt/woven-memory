@@ -1,6 +1,8 @@
 # woven-memory
 
-Procesador de audio en vivo hecho con [Pure Data](https://puredata.info/) para Raspberry Pi. Toma cuatro entradas de audio, aplica a cada una una cadena de efectos (delay, vocoder, reverb y pitch shift) y mezcla el resultado en una salida estéreo.
+Procesador de audio en vivo hecho con [Pure Data](https://puredata.info/) para Raspberry Pi. Toma cuatro entradas de audio, aplica a cada una una cadena de efectos (delay, vocoder, reverb y pitch shift) y mezcla el resultado en una salida estéreo. 
+
+Encargo realizado para Matías Serrano en el conexto de la instalación sonora realizada por la artista Soledad Muñoz en el espacio de memorias Londres 38 el año 2023. Mas detalle de la obra [acá](https://www.wovenmemory.net/sites/londres-38/piece).
 
 ▶️ **[Ver demo](https://vimeo.com/1112075305)**
 
@@ -75,11 +77,7 @@ woven-memory/
    ```
 
 ## Notas
-
-- Los nombres con `~` indican abstracciones que procesan señal de audio.
 - Los parámetros de `delay~`, `reverb~`, `pitchshift~` y `vocoder~` se pueden ajustar con los sliders de cada abstracción.
-- `vfreeverb~.pd` es obra de Katja Vetter (2012). Conserva los créditos si la redistribuyes.
+- `vfreeverb~.pd` es obra de Katja Vetter (2012). 
 
-## Licencia
 
-Pendiente de definir. Si quieres que otras personas puedan reutilizar el código, añade un archivo `LICENSE`.
