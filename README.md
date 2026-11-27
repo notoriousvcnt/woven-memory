@@ -63,7 +63,7 @@ woven-memory/
 ### En la Raspberry Pi
 
 1. Instala Pd, JACK, QjackCtl y cyclone.
-2. Copia el contenido del repositorio a la Pi. Los autostart esperan el parche en `/home/vcnt/pi/Londres38/_MAIN.pd`. Si usas otra ruta o usuario, edita `pd.desktop`.
+2. Copia el contenido del repositorio a la Pi. Los autostart esperan el parche en `/home/pi/woven-memory/puredata/_MAIN.pd` (clona el repo en `/home/pi/`). Si usas otra ruta o usuario, edita `pd.desktop`.
 3. Copia los `.desktop` a `~/.config/autostart/`:
    ```bash
    mkdir -p ~/.config/autostart
